@@ -21,9 +21,11 @@ namespace BirthdayTrackerWebApi.Controllers
         }
 
         // GET: api/Person/5
-        public string Get(int id)
+        public HttpResponseMessage Get(int id)
         {
-            return "value";
+            var person = DAL.GetPerson(id);
+            var message = Request.CreateResponse(HttpStatusCode.OK, person);
+            return message;
         }
 
         // POST: api/Person
