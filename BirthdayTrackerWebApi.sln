@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayTrackerWebApi", "BirthdayTrackerWebApi.csproj", "{E3F8B8D9-3C8D-43C8-A003-3505D7885B3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BirthdayEnityModels", "..\BirthdayEnityModels\BirthdayEnityModels.csproj", "{FA92F99D-F86A-4282-8F1C-BDFE991BE2FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3F8B8D9-3C8D-43C8-A003-3505D7885B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3F8B8D9-3C8D-43C8-A003-3505D7885B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3F8B8D9-3C8D-43C8-A003-3505D7885B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3F8B8D9-3C8D-43C8-A003-3505D7885B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA92F99D-F86A-4282-8F1C-BDFE991BE2FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA92F99D-F86A-4282-8F1C-BDFE991BE2FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA92F99D-F86A-4282-8F1C-BDFE991BE2FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA92F99D-F86A-4282-8F1C-BDFE991BE2FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF4F4A37-EABC-4003-BF49-70EF810F65B3}
+	EndGlobalSection
+EndGlobal
