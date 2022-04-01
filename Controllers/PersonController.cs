@@ -20,6 +20,15 @@ namespace BirthdayTrackerWebApi.Controllers
             return people;
         }
 
+        // GET: api/Person?Lastname='lastname'
+        public IEnumerable<Person> Get(string Lastname)
+        {
+            
+            var people = DAL.GetPerson(Lastname);
+
+            return people;
+        }
+
         // GET: api/Person/5
         public HttpResponseMessage Get(int id)
         {
